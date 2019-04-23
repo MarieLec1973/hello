@@ -5,9 +5,8 @@ $resultat = getAllAnnonces();
 ?>
  <ul>
  	<li><?php echo $resultat["annonce1"][0] ?></li>
- 	<li><?php echo $resultat["annonce1"][1] ?></li>
  </ul>
-
+<p><?php echo $resultat["annonce1"][0]?> vaut 1000 euros</p>
  <hr>
  <ul>
  	<li><?php echo $resultat["annonce2"][0] ?></li>
